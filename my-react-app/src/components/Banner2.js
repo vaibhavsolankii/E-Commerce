@@ -1,6 +1,6 @@
 import React from "react";
 
-const Banner = () => {
+const Banner2 = () => {
     return (
         <>
             <div
@@ -16,7 +16,7 @@ const Banner = () => {
                 <div class="carousel-inner">
                     <div class="carousel-item active">
                         <img
-                            src="https://assets.ajio.com/cms/AJIO/WEB/D-1.0-UHP-02052024-MainBannerDailyChanging-Z1-P3-MAYBELLINENEWYORK-IKONICPROFESSIONAL-UPTO60.jpg"
+                            src="https://assets.ajio.com/cms/AJIO/WEB/D-1.0-UHP-02052024-TopBrandBanner-Z3-P2-levis-uspa-min50.jpg"
                             class="d-block w-100"
                             alt="..."
                         />
@@ -82,4 +82,4 @@ const Banner = () => {
     );
 };
 
-export default Banner;
+export default Banner2;
