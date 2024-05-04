@@ -1,0 +1,36 @@
+.nav-container {
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    padding-left: 7%;
+    padding-right: 7%;
+}
+.nav-container-div {
+    padding: 0 3%;
+    margin: 2% 0;
+}
+.carousel.slide {
+    margin-bottom: 1%;
+}
+.trending-grid {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+}
+
+/* Tag Styling */
+* {
+    font-family: "Source Sans 3", sans-serif;
+}
+img {
+    width: 100%;
+}
+
+/* Media Queries */
+@media screen and (min-width: 800px) {
+    #ajio-nav-logo {
+        height: 45%;
+    }
+    .nav-container-div {
+        margin: 0;
+    }
+}

@@ -1,0 +1,53 @@
+.navbar-custom {
+    background-color: #B0E0E6;
+}
+
+.navbar-custom .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+
+
+.navbar-custom a {
+    margin-right: 15px; /* Add some space between links */
+}
+
+
+.search {
+    position: relative;
+    width: 250px; /* Adjust the width of the search input */
+    height: 30px; /* Increase the height as needed */
+    margin-right: 15px; /* Adjust as needed */
+}
+
+
+.round {
+    width: 280px; /* Occupy full width */
+    height: 35px;
+    background-color: #fffded;
+    border-radius: 15px;
+    border: 1px solid #000;
+    padding-left: 15px; /* Adjust the left padding to make space for the icon */
+    box-sizing: border-box; /* Include padding in width calculation */
+}
+
+.icon-search {
+    position: absolute;
+    top:60%;
+    transform: translateY(-50%);
+    left: 250px; /* Adjust the left position as needed */
+    color: #888;
+}
+
+.liked-items {
+    margin-left: 305px;
+    margin-top: -32px;
+}
+
+.cart-items{
+    margin-left: 350px;
+    margin-top: -26px;
+
+}
+
