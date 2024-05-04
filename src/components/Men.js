@@ -1,7 +1,7 @@
 import React from "react";
 import Header from "../components/Header";
 import C1i1 from "../images/carousel1 img1.png";
-import C1i2 from "../images/carousel1 img2.png";
+import C1i2 from "../images/carousel1 img1.png";
 
 const Men = () => {
   return (
