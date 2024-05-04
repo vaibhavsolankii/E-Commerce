@@ -1,10 +1,10 @@
-* {
+/* * {
     margin: 0;
     box-sizing: 0;
     padding: 0;
 
-
 }
+*/
 
 .footer {
     display: flex;
@@ -38,11 +38,12 @@
 .linkSection {
     display: flex;
     flex-direction: column;
+
 }
 
 .linkContainer {
     padding-top: 15px;
-    padding-bottom: 40px;
+    padding-bottom: 50px;
     display: flex;
     flex-direction: column;
     row-gap: 13px;
@@ -62,7 +63,7 @@ a:hover {
 }
 
 .payment {
-
+    padding-top: 15px;
     display: flex;
     height: 100%;
     width: 100%;
