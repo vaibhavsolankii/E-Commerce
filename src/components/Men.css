@@ -17,7 +17,6 @@
     grid-template-columns: auto auto auto auto;
 }
 
-/* Tag Styling */
 * {
     font-family: "Source Sans 3", sans-serif;
 }
@@ -25,12 +24,21 @@ img {
     width: 100%;
 }
 
-/* Media Queries */
 @media screen and (min-width: 800px) {
     #ajio-nav-logo {
         height: 45%;
     }
     .nav-container-div {
         margin: 0;
+    }
+}
+@media (max-width: 895px) {
+    .carousel {
+      position: absolute;
+      top: 80px; /* Adjust as needed to align with the top of the navbar */
+      left: 0; /* Align with the left side navbar */
+      width: calc(100% - 200px); /* Take up the remaining width after the navbar */
+      height: calc(100% - 80px); /* Take up the remaining height after the navbar */
+      overflow: hidden; /* Hide any overflow content */
     }
 }
