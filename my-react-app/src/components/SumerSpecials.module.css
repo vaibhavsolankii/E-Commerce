@@ -1,0 +1,25 @@
+.SumerSpecials{
+    /* background: #B0E0E6; */
+    background: linear-gradient(#B0E0E6, #FFFFFF);
+    text-align: center;
+    justify-content: center;
+    border-top-left-radius: 12px ;
+    border-top-right-radius: 12px;
+}
+
+.cardsComponent{
+    background-color: #B0E0E6;
+}
+.cardsComponent img{
+    
+    margin-top: 0%;
+    max-width: 25%;
+    max-height: 30%;
+    transition: transform 0.3s ease;
+}
+.cardsComponent img:hover{
+    transform: scale(0.95); 
+    cursor: pointer;
+}
+
+
