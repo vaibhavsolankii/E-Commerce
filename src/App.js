@@ -1,11 +1,13 @@
 import "./App.css";
-import Men from "../src/components/Men";
-import Footer from "./components/Footer";
+import ProductCard from "./components/ProductCard";
+// import Men from "../src/components/Men";
+// import Footer from "./components/Footer";
 function App() {
   return (
     <>
-      <Men />
-      <Footer />
+      {/* <Men />
+      <Footer /> */}
+      <ProductCard />
     </>
   );
 }
