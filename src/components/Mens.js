@@ -11,7 +11,17 @@ function ProductCard() {
         <div className="card-body">
           <h5 className="card-title">Shirt</h5>
           <h5 className="product-price">$10.00</h5>
-          <h6 className="product-quantity">Quantity</h6>
+          <div className="d-flex align-items-center">
+            <h6 className="product-quantity">Quantity</h6>
+            <div className="d-flex align-items-center mx-3">
+              <button className="btn btn-secondary btn-sm">-</button>
+              <h5 className="mx-2">0</h5>
+              <button className="btn btn-secondary btn-sm">+</button>
+            </div>
+          </div>
+
+
+
         </div>
       </div>
       <div className="card" style={{ width: "18rem", marginLeft: "30px" }}>
@@ -19,7 +29,14 @@ function ProductCard() {
         <div className="card-body">
           <h5 className="card-title">Shirt</h5>
           <h5 className="product-price">$18.00</h5>
-          <h6 className="product-quantity">Quantity</h6>
+          <div className="d-flex align-items-center">
+            <h6 className="product-quantity">Quantity</h6>
+            <div className="d-flex align-items-center mx-3">
+              <button className="btn btn-secondary btn-sm">-</button>
+              <h5 className="mx-2">0</h5>
+              <button className="btn btn-secondary btn-sm">+</button>
+            </div>
+          </div>
         </div>
       </div>
       <div className="card" style={{ width: "18rem", marginLeft: "30px" }}>
@@ -27,7 +44,15 @@ function ProductCard() {
         <div className="card-body">
           <h5 className="card-title">Sunglasses</h5>
           <h5 className="product-price">$20.00</h5>
-          <h6 className="product-quantity">Quantity</h6>
+          <div className="d-flex align-items-center gap-10">
+            <h6 className="product-quantity">Quantity</h6>
+            <div className="d-flex align-items-center mx-3 ">
+              <button className="btn btn-secondary btn-sm">-</button>
+              <h5 className="mx-2">0</h5>
+              <button className="btn btn-secondary btn-sm">+</button>
+            </div>
+          </div>
+
         </div>
       </div>
     </div>
