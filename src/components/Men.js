@@ -1,5 +1,6 @@
 import React from "react";
 import Header from "../components/Header";
+import Footer from "../components/Footer";
 import C1i1 from "../images/carousel1 img1.png";
 import C1i2 from "../images/carousel1 img1.png";
 
@@ -48,6 +49,7 @@ const Men = () => {
           <span className="visually-hidden">Next</span>
         </button>
       </div>
+      <Footer />
     </>
   );
 };
