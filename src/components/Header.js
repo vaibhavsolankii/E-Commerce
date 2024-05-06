@@ -1,5 +1,6 @@
 import React from "react";
 import "../components/Header.css";
+import { Link } from "react-router-dom";
 import Logo from "../images/NexCart__1_-removebg-preview.png";
 
 const Header = () => {
@@ -20,14 +21,15 @@ const Header = () => {
         >
           <span className="navbar-toggler-icon"></span>
         </button>
-        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
         <div className="collapse navbar-collapse" id="navbarNav">
           <ul className="navbar-nav">
-            <li className="nav-item">
-              <a className="nav-link active" aria-current="page" href="#">
-                MEN
-              </a>
-            </li>
+            <Link to={"/mens"}>
+              <li className="nav-item">
+                <a className="nav-link active" aria-current="page">
+                  MEN
+                </a>
+              </li>
+            </Link>
             <li className="nav-item">
               <a className="nav-link" href="#">
                 WOMEN

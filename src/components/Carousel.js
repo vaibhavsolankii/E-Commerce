@@ -1,13 +1,10 @@
 import React from "react";
-import Header from "../components/Header";
-import Footer from "../components/Footer";
 import C1i1 from "../images/carousel1 img1.png";
 import C1i2 from "../images/carousel1 img1.png";
 
 const Men = () => {
   return (
     <>
-      <Header />
       <div
         id="carouselExampleInterval"
         className="carousel slide"
@@ -15,13 +12,10 @@ const Men = () => {
       >
         <div className="carousel-inner">
           <div className="carousel-item active" interval="1000">
-            <img src={C1i1} className="d-block w-100" />
+            <img src={C1i1} alt="..." className="d-block w-100" />
           </div>
           <div className="carousel-item" interval="1000">
-            <img src={C1i2} className="d-block w-100" />
-          </div>
-          <div className="carousel-item">
-            <img src="..." className="d-block w-100" />
+            <img src={C1i2} alt="..." className="d-block w-100" />
           </div>
         </div>
         <button
@@ -49,7 +43,6 @@ const Men = () => {
           <span className="visually-hidden">Next</span>
         </button>
       </div>
-      <Footer />
     </>
   );
 };
